@@ -1,0 +1,39 @@
+{
+  "took" : 32,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 1,
+    "successful" : 1,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 2,
+      "relation" : "eq"
+    },
+    "max_score" : 29.231213,
+    "hits" : [
+      {
+        "_index" : "sample",
+        "_type" : "_doc",
+        "_id" : "761",
+        "_score" : 29.231213,
+        "_source" : {
+          "content" : "",
+          "category" : "politics"
+        }
+      },
+      {
+        "_index" : "sample",
+        "_type" : "_doc",
+        "_id" : "268",
+        "_score" : 25.24509,
+        "_source" : {
+          "content" : "",
+          "category" : "business"
+        }
+      }
+    ]
+  }
+}
